@@ -1,5 +1,5 @@
-import Carousel from "better-react-carousel";
 import React from "react";
+import Carousel from "better-react-carousel";
 import { assets } from "../assets/assets";
 
 const ImageCarousel = () => {

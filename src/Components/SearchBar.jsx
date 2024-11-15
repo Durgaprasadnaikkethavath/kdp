@@ -1,6 +1,6 @@
-import React, { useContext, useEffect, useState } from "react";
+import React, { useContext } from "react";
 import { ShopContext } from "../Context/ShopContext";
-import { useLocation } from "react-router-dom";
+// import { useLocation } from "react-router-dom";
 
 const SearchBar = () => {
   const { products, search, setSearch, showSearch, setShowSearch } =

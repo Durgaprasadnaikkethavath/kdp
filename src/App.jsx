@@ -11,10 +11,13 @@ import Cart from "./Pages/Cart";
 import Login from "./Pages/Login";
 import PlaceOrder from "./Pages/PlaceOrder";
 import Order from "./Pages/Order";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const App = () => {
   return (
     <>
+      <ToastContainer />
       <Navbar />
       <SearchBar />
       <Routes>
