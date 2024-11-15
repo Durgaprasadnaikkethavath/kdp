@@ -18,11 +18,11 @@ import ShopContextProvider from "./Context/ShopContext";
 const App = () => {
   return (
     <>
+      <ToastContainer />
+      <Navbar />
+      <SearchBar />
       <HashRouter>
         <ShopContextProvider>
-          <ToastContainer />
-          <Navbar />
-          <SearchBar />
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/collection" element={<Collection />} />
